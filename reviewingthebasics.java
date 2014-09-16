@@ -7,27 +7,17 @@
  */
 public class reviewingthebasics
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class reviewingthebasics
-     */
-    public reviewingthebasics()
+    reviewingthebasics()
     {
-        // initialise instance variables
-        x = 0;
+        int  x = 5;
+        int y = 5;
+        System.out.println(x==y);
+        
+        String f ="f";
+        String f2= new String("f");
+        
+         System.out.println(f.equals(f2));
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
+   
 }
